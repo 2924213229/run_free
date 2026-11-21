@@ -1,6 +1,9 @@
 # 运动世界校园跑纯协议客户端（7.4.01）
 
 ##  快速开始
+### 环境需要
+1. python 3.8版本及以上
+2. nodejs 20版本及以上
 ### 克隆仓库
 git clone https://github.com/2924213229/run_free.git
 ### 安装依赖
@@ -18,7 +21,10 @@ python3 go.py login --user <phonenumber> --password <pwd>
 ### 跑步
 ```bash
 python3 go.py run [--distance <要跑的距离>] [--time [要跑的时间]]
+
 ```
+distance和time可选，默认距离2km，时间720s
+
 ### 查看状态
 python3 go.py status
 ### 登出
