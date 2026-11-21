@@ -1,7 +1,8 @@
 # 运动世界校园跑纯协议客户端（7.4.01）
 
 ##  快速开始
-
+### 克隆仓库
+git clone https://github.com/2924213229/run_free.git
 ### 安装依赖
 ```bash
 cd ~/run_free
